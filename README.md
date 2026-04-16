@@ -33,10 +33,10 @@ npm install
 Create a `.env` file in the root:
 
 ```bash
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=your_mysql_password
-DB_NAME=expense_tracker
+MYSQLHOST=localhost
+MYSQLUSER=root
+MYSQLPASSWORD=your_mysql_password
+MYSQLDATABASE=expense_tracker
 JWT_SECRET=your_secret_key
 PORT=8000
 ```
