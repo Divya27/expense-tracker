@@ -48,7 +48,8 @@ const login = async ({ email, password }) => {
       id: user.id,
       first_name: user.first_name,
       last_name: user.last_name,
-      email: user.email
+      email: user.email,
+      created_at: user.created_at
     }
   };
 };
